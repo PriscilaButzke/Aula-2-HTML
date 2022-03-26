@@ -1,0 +1,47 @@
+*{
+    margin 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4D96FF;
+    color:black;
+}
+
+nav{
+    background-color: #6BCB77 ;
+    margin: 10px 250px;
+}
+    
+nav p {
+    text-align: center;
+    color: #FFD93D;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+nav p span{
+    padding: 0px 10px 0px 10px;
+}
+
+main h2{
+    font-family: font-family: 'Bebas Neue', cursive;
+    font-family: 'Lobster', cursive;;
+    text-align: center;
+
+}
+
+header h1{
+    text-align: center;
+    font-size: 40pt;
+}
+
+main{
+   margin: 0px 50px; 
+}
+
+main figure{
+    text-align: center;
+}
+
