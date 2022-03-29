@@ -52,3 +52,27 @@ main h3 {
     margin: 0px;
     background-color: #EDEDED;
 }
+.info1{
+    width: 400px;
+    font-size: 18px;
+    opacity: 75%;
+    background-color: #5B7DB1;
+    position: absolute;
+    left: 470px;
+    border-radius: 4%;
+    padding: 0px 25px 0px 25px;
+}
+
+.info2{
+    width: 400px;
+    font-size: 18px;
+    opacity: 75%;
+    background-color: #5B7DB1;
+    position: absolute;
+    left: 470px;
+    top: 270px;
+    border-radius: 4%;
+    padding: 0px 25px 0px 25px;
+    
+}
+
