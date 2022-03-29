@@ -1,0 +1,155 @@
+* {
+    margin 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* Pagina Index*/
+
+/* formatação do menu */
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #EDEDED;
+    list-style: none;
+    text-align: center;
+}
+
+/*todas as opções ficam em uma linha horizontal*/
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link ñ selecionado*/
+    background-color: #EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid #EDEDED;
+}
+
+/*quando o usuário passar o mouse.*/
+#menu ul li a:hover {
+    background-color: #5B7DB1;
+    color: #F7E2E2;
+    border-bottom: 3px solid #1A132F;
+}
+
+body {
+    background-color: #4D96FF;
+    color: black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40pt;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+main h3 {
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #EDEDED;
+}
+
+#text-sobre {
+    text-align: center;
+    font-size: 21px;
+}
+
+#foto-perfil {
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    /* posiciona a 100px para a esquerda */
+    top: 57px;
+    /* posiciona a 100px para baixo */
+}
+
+#imagens-info {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    flex-direction: row;
+}
+
+.im{
+    width:"50px";
+    height:"auto";
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    flex-direction: row;
+}
+
+}
+.box{
+    align-content: flex-start;
+ 
+}
+.box p{
+    text-align: center;
+    width: 150px;
+}
+
+/* formatação do menu */
+#menu2 ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #EDEDED;
+    list-style: none;
+    width: 400px;
+    border-radius: 4%;
+    position: absolute;
+    left: 465px;
+}
+
+/* visual do link */
+#menu2 ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link não selecionado*/
+    background-color: #EDEDED;
+    color: black;
+    text-decoration: none;
+    /* retira o sublinhado roxo de vizualizado*/
+    border-bottom: 3px solid #EDEDED;
+}
+
+/*quando o usuário passar o mouse.*/
+#menu2 ul li a:hover {
+    background-color: #5B7DB1;
+    color: #EDEDED;
+    border-bottom: 3px solid #1A132F;
+}
+
+.im2 {
+    width: 50px;
+    height: auto;
+}
+
+
+
+
+
+
